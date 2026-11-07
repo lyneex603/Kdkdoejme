@@ -1,0 +1,13 @@
+name: Spheres
+version: 1.0
+main: me.spheres.SpheresPlugin
+api-version: "26.1"
+description: Talismans and spheres with offhand bonuses
+commands:
+  sphere:
+    description: Give a talisman or sphere
+    usage: /sphere <1001-1006|2001-2006> [player]
+    permission: spheres.give
+permissions:
+  spheres.give:
+    default: op
